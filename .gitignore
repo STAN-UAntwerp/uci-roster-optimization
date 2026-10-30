@@ -1,0 +1,19 @@
+/data/
+/models/
+/outputs/
+/reproduced/
+/.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# Local credentials, editor files and release archives
+.env
+.env.*
+*.lic
+*.pem
+*.key
+*.zip
+/.vscode/
+/.idea/
+/.codex/

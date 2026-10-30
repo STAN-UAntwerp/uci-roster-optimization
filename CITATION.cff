@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Please cite this software when using the code or aggregate reference results."
+type: software
+title: "UCI roster optimization: paper code"
+authors:
+  - family-names: "Van Gaelen"
+    given-names: "Louis"
+    orcid: "https://orcid.org/0009-0001-7566-8828"
+  - family-names: "Servotte"
+    given-names: "Thomas"
+    orcid: "https://orcid.org/0000-0002-6930-6046"
+  - family-names: "Verdonck"
+    given-names: "Tim"
+    orcid: "https://orcid.org/0000-0003-1105-2028"
+repository-code: "https://github.com/STAN-UAntwerp/uci-roster-optimization"
+license: MIT
+abstract: >-
+  Code and aggregate reference results accompanying A predictive-prescriptive
+  framework for optimal rider allocation in cycling. Source-level research
+  inputs and detailed evaluation archives are not distributed.
+keywords:
+  - cycling
+  - roster optimization
+  - mathematical programming
+  - machine learning

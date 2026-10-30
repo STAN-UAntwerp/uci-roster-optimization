@@ -1,0 +1,2160 @@
+{
+  "schema_version": 1,
+  "tuning_runs": {
+    "STAGE": "outputs/tuning/stage/2026-09-09_21-56-39",
+    "GC": "outputs/tuning/gc/2026-09-10_08-06-42",
+    "STAGE_REG": "outputs/tuning/stage_reg/2026-09-10_10-14-40",
+    "GC_REG": "outputs/tuning/gc_reg/2026-09-11_16-39-00"
+  },
+  "runs": {
+    "ranker": "outputs/rostering_evaluation/2026-09-11_10-20-59_072753",
+    "regressor": "outputs/rostering_evaluation/2026-09-11_09-19-56_537799",
+    "ranker_solver": "outputs/rostering_evaluation/2026-09-10_15-08-16_163989",
+    "hybrid": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985",
+    "predictive": "outputs/evaluation/2026-09-10_10-39-20_065552"
+  },
+  "files": [
+    {
+      "path": "data/gpx/2024.csv",
+      "profile": "inputs",
+      "bytes": 333124,
+      "sha256": "e6511e026b9bef9ca8584d83a5a48cf27177d7413b33986becdf4315f274f2c6"
+    },
+    {
+      "path": "data/gpx/2025.csv",
+      "profile": "inputs",
+      "bytes": 331905,
+      "sha256": "1e7b2c5e70d99954102f63f7897f0f5fc96c39026087da9bd5d1b979795038ba"
+    },
+    {
+      "path": "data/injuries/injuries.json",
+      "profile": "inputs",
+      "bytes": 260023,
+      "sha256": "26bb7fc73414990d7bad15168e7447987c1ad8f18e889ccd79bb20723717f724"
+    },
+    {
+      "path": "data/pcs_races_all.csv",
+      "profile": "inputs",
+      "bytes": 112925,
+      "sha256": "f645ac956f5ac23ccb9c3f5a5ab6a2593f169727b53c78c4b39f1fee253fdfcb"
+    },
+    {
+      "path": "data/pcs_scales_all.csv",
+      "profile": "inputs",
+      "bytes": 54332,
+      "sha256": "319e01049a2b746f7a1a9672091d8fc73c716145e63a7f759e391b930ace4365"
+    },
+    {
+      "path": "data/profile_score/2024.csv",
+      "profile": "inputs",
+      "bytes": 56622,
+      "sha256": "e8a797b9b2e38f1b594b159f1efceb3b1285ec6afd1777db21cd9734add65451"
+    },
+    {
+      "path": "data/profile_score/2025.csv",
+      "profile": "inputs",
+      "bytes": 57863,
+      "sha256": "ff5d468337e7ab96fc553de36d1a15071bfc44761a2e450896780f22b6c61db5"
+    },
+    {
+      "path": "data/results_with_gpx/2024/race_to_gpx.json",
+      "profile": "inputs",
+      "bytes": 84319,
+      "sha256": "949c3be121235f58e149aa85016f73fe5ca917f612ccff714d7746aaa21b6167"
+    },
+    {
+      "path": "data/results_with_gpx/2025/race_to_gpx.json",
+      "profile": "inputs",
+      "bytes": 81874,
+      "sha256": "42f9475ed430ae5804462f015a2a04899768234d6b3b853e339b0334d90d6dbe"
+    },
+    {
+      "path": "data/rider_data/cumulative_specialties.csv",
+      "profile": "inputs",
+      "bytes": 10609650,
+      "sha256": "dede451eebafdb28af490f3f7d79c7d9a40da147d196df040b13640933ae7d21"
+    },
+    {
+      "path": "data/rider_data/general_rider_data.csv",
+      "profile": "inputs",
+      "bytes": 1718981,
+      "sha256": "e494519f8f4a955fbbd0ddf058af67a461435968551ea4972ea610f16c8f029a"
+    },
+    {
+      "path": "data/roster/programs_2024.json",
+      "profile": "inputs",
+      "bytes": 891040,
+      "sha256": "9cd8570d3a5747477e65b918601baaa2156bdd4c231579d2c3b056ff2bf78437"
+    },
+    {
+      "path": "data/roster/programs_2025.json",
+      "profile": "inputs",
+      "bytes": 913147,
+      "sha256": "2c66a11c290df68c63d0ea576c4b41e11fd2663c8d334b9193e67b945d6a4701"
+    },
+    {
+      "path": "data/startlists/startlists_2024.json",
+      "profile": "inputs",
+      "bytes": 2404445,
+      "sha256": "4fe2afefe34612c265f6c4db72edfc0a0a38f4f50db1f7e7438b82530dd23eaa"
+    },
+    {
+      "path": "data/startlists/startlists_2025.json",
+      "profile": "inputs",
+      "bytes": 3169773,
+      "sha256": "52321b49836c034dd02fecf86a6b8648c0fa250605e38fbf90f0f91b7be743c9"
+    },
+    {
+      "path": "data/teams/teams_2024.json",
+      "profile": "inputs",
+      "bytes": 30419,
+      "sha256": "a4d753ba1578c79e4c0784762209eaac7868221434fef8edf88238ff67fa2fcf"
+    },
+    {
+      "path": "data/teams/teams_2025.json",
+      "profile": "inputs",
+      "bytes": 30562,
+      "sha256": "4b51808c64551d008f82897c336a2c5f8ab20f7aa2f586083bbf416b45b25eb5"
+    },
+    {
+      "path": "data/unprocessed/results_2023.jsonl",
+      "profile": "inputs",
+      "bytes": 2552943,
+      "sha256": "2c376a5a0f02eca417215d4f39c5b8eb8c554773920ad0ffd6f1031adb4bb1dc"
+    },
+    {
+      "path": "data/unprocessed/results_2024.jsonl",
+      "profile": "inputs",
+      "bytes": 2990572,
+      "sha256": "1383937f96f7e0183a4bfdbc9a763dfc7e88e6fa15cf484fa675839c23b8c5cf"
+    },
+    {
+      "path": "data/unprocessed/results_gc.jsonl",
+      "profile": "inputs",
+      "bytes": 2392157,
+      "sha256": "40affa0c065046a12d0710bd7f7439518a577486a57267a6eca16bb1fc243f25"
+    },
+    {
+      "path": "data/unprocessed/results_gc_2021.jsonl",
+      "profile": "inputs",
+      "bytes": 214331,
+      "sha256": "d95d781286e4c30f5a083853c082b0d46ec9344c0fffcf8cfaff574364547789"
+    },
+    {
+      "path": "data/unprocessed/results_gc_2022.jsonl",
+      "profile": "inputs",
+      "bytes": 242561,
+      "sha256": "bf767e34f99a2c289dc3878f3996972caa41bd0807c1978c1914966343e449c6"
+    },
+    {
+      "path": "data/unprocessed/results_gc_2023.jsonl",
+      "profile": "inputs",
+      "bytes": 285899,
+      "sha256": "72741bc26fad355435111881675e401c2cd17f21a659900b626d02bbe130ac62"
+    },
+    {
+      "path": "data/unprocessed/results_gc_2024.jsonl",
+      "profile": "inputs",
+      "bytes": 311484,
+      "sha256": "2d4a93c93bfdfeb9ba9f11c6362e19c9faadbc266aaec81f82e36980e63f2059"
+    },
+    {
+      "path": "data/unprocessed/rider_results.jsonl",
+      "profile": "inputs",
+      "bytes": 43279594,
+      "sha256": "5a004abf27206716dea1f111d4baea031fcb179ff57709617e7eb846ccf061a2"
+    },
+    {
+      "path": "models/features-2019-2025-detailed_gpx.csv",
+      "profile": "inputs",
+      "bytes": 430580421,
+      "sha256": "ef0950ae886a4869886773c53b8e3a1b26bb2b1cbd0ea3c50f1d3fed1957f311"
+    },
+    {
+      "path": "models/gc_features_2019_2025.csv",
+      "profile": "inputs",
+      "bytes": 31829477,
+      "sha256": "c385de7d952c71b0e398b30de16ad0492249e36dc171d7ac95863e74b9a38cf8"
+    },
+    {
+      "path": "outputs/evaluation/2026-09-10_10-39-20_065552/comparison.csv",
+      "profile": "archives",
+      "bytes": 2250,
+      "sha256": "62fb2224ec4976cbd26716d4fcb092d3241e3df85157abfa35a869365f8bba25"
+    },
+    {
+      "path": "outputs/evaluation/2026-09-10_10-39-20_065552/metadata.json",
+      "profile": "archives",
+      "bytes": 35223,
+      "sha256": "5eeb3220a353bb790e46387b53084012c4d9546bb18bf7649cf375a1eccf8571"
+    },
+    {
+      "path": "outputs/evaluation/2026-09-10_10-39-20_065552/metrics_per_race.csv",
+      "profile": "archives",
+      "bytes": 12904118,
+      "sha256": "abc03ead9da031eb3799d5712e3e3d5cd24de9c071f5e20ddd40a1a556ac7797"
+    },
+    {
+      "path": "outputs/evaluation/2026-09-10_10-39-20_065552/metrics_per_year.csv",
+      "profile": "archives",
+      "bytes": 15145,
+      "sha256": "41ab925b6b72df28593ff7731a3dcc9c71fdab5e610eada5a6e044c0ee2cbb89"
+    },
+    {
+      "path": "outputs/evaluation/2026-09-10_10-39-20_065552/predictions.csv",
+      "profile": "archives",
+      "bytes": 28000696,
+      "sha256": "08f9f1a406efc93976effe4e500933bc65842303c62374c8bea9b6190afb1935"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/actual_coverage_2024.csv",
+      "profile": "archives",
+      "bytes": 3042898,
+      "sha256": "4d5de246b6ea9996abee9ba4842f295c7a39eeea1170dad237c036348b1875d7"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/actual_coverage_2025.csv",
+      "profile": "archives",
+      "bytes": 3239576,
+      "sha256": "75ee6a9f0288ef663c31d8eefac43e7422e1a06a17b69cbf2f954160191f2c4f"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/metadata.json",
+      "profile": "archives",
+      "bytes": 3315,
+      "sha256": "b62c5acefae1bf7b1a5c01118f3d1b83bf89d3444ffc65758d532d92e4ae7281"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2024/alpecin-deceuninck/assignments.csv",
+      "profile": "archives",
+      "bytes": 198874,
+      "sha256": "fd6863b40855e8d3318387ae82edf6c73a57da15c148e7345c94bb3adcc89e2e"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2024/alpecin-deceuninck/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7342,
+      "sha256": "4c756a35bab87a80422702734a3f88c648a7be1d4f4d56120523ccd412b8f5fb"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2024/arkea-b-b-hotels/assignments.csv",
+      "profile": "archives",
+      "bytes": 278412,
+      "sha256": "e3ff6b044bb45c60277aa459550aa8336db5b17f521cec7aa6a228aeb20f533d"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2024/arkea-b-b-hotels/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7250,
+      "sha256": "049549ccb42b501dfda4716680db89a9a98f16fc34de7fda9bf9d0f414a59ce9"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2024/astana-qazaqstan-team/assignments.csv",
+      "profile": "archives",
+      "bytes": 198948,
+      "sha256": "8f17ae42bc575fcfd3c7680ef1686d9a7deb81450399af201b7af6cb90dcd5cf"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2024/astana-qazaqstan-team/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 8255,
+      "sha256": "a956d1d175aab9d52044b4fa9cdb9b933750b0ba901a68f08a3d4fae80133400"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2024/bahrain-victorious/assignments.csv",
+      "profile": "archives",
+      "bytes": 128173,
+      "sha256": "34c4688b73a6defad14e3e6797768eb2a0c65504450a8d64a87bda278b27e1f0"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2024/bahrain-victorious/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7575,
+      "sha256": "5b16eed4e3f3ef4641138a287df00f5b895e159331bc414e64d9a2c607b7e30c"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2024/bora-hansgrohe/assignments.csv",
+      "profile": "archives",
+      "bytes": 180235,
+      "sha256": "622336e103aa86a8e542396db3f016b0ee3cd2d02cf0de4de48ffb9029ca7aaa"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2024/bora-hansgrohe/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 6910,
+      "sha256": "1a6dbbf1a2b6b16ee4f6f031a11d05cee32863d7d0837896249d3e7d256a06d1"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2024/cofidis/assignments.csv",
+      "profile": "archives",
+      "bytes": 267660,
+      "sha256": "2bed0f6bd0e41fa1cd2066a146208e7845bdaab196f03b2eb24f76c98277980f"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2024/cofidis/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7334,
+      "sha256": "42a02b49fcaff731b879c244000efe7789c773824fd65091da2c289b4e91e814"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2024/decathlon-ag2r-la-mondiale/assignments.csv",
+      "profile": "archives",
+      "bytes": 204942,
+      "sha256": "8502fb5c2b4e1c00dc536b4e6f386afc0c4b5d4a5b5c3743ffd3e1240c3615f2"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2024/decathlon-ag2r-la-mondiale/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7910,
+      "sha256": "7bf07ab9e6dbd19d4f7a51f1c3a0a8919d19556e4c1194dffb339f0954be970f"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2024/ef-education-easypost/assignments.csv",
+      "profile": "archives",
+      "bytes": 177899,
+      "sha256": "60c80718263742f6fe8a4aa89d8c486fdf0f5889ed32ec8d462ac21c67b7e70d"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2024/ef-education-easypost/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 8041,
+      "sha256": "6719d0bd9d480320665ed01d09a564c081e3e165aaddab01ffad0d763423387c"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2024/groupama-fdj/assignments.csv",
+      "profile": "archives",
+      "bytes": 186781,
+      "sha256": "4b9f5c08ccffd575360912a9e4ed7b3f8330e8f0a16a539fd71a21ffc5daf183"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2024/groupama-fdj/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 6409,
+      "sha256": "7b9eb04383e5150bdeb94879419c8fcfcd4c69b7d6502f53b954fe70db112fd1"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2024/ineos-grenadiers/assignments.csv",
+      "profile": "archives",
+      "bytes": 124935,
+      "sha256": "232b7b096af0e44ff687e3cd330fa30d4e0d771dbfe10621773820760f0fdeae"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2024/ineos-grenadiers/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7111,
+      "sha256": "55e26a38f660fb8f11263769aee6db43d2ab729800004345fe5ab920308f4efd"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2024/intermarche-wanty/assignments.csv",
+      "profile": "archives",
+      "bytes": 237288,
+      "sha256": "d2b1a4a467c129222e6f257e9e048d0e57de2827acf303f371bb2f7afb9e7b73"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2024/intermarche-wanty/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7283,
+      "sha256": "11855db05a552a17f067983987b150737c8ec928aa6c632cb0c0ced4be5163f2"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2024/lidl-trek/assignments.csv",
+      "profile": "archives",
+      "bytes": 156023,
+      "sha256": "add65563a6cf906df96b5bc99475277983ba940b5d33ffed6d45db99665ee269"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2024/lidl-trek/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 6845,
+      "sha256": "d8e46bb1936be250dd29443a7501491bdd78653e5cdc537b069ef7aa1d4084ed"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2024/movistar-team/assignments.csv",
+      "profile": "archives",
+      "bytes": 186338,
+      "sha256": "ecc4f12deebdf582fc7b539d27fa6acc47b9695b3fb81ede79135224f825ed07"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2024/movistar-team/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7081,
+      "sha256": "5bed59aaeb12e6f2a5e103b738d58f889fc3cb9edbdc96533d37c47c0dad110a"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2024/soudal-quick-step/assignments.csv",
+      "profile": "archives",
+      "bytes": 167867,
+      "sha256": "dbfeb0049a325effb36b133e4c184e903654ce234ce09aec2b42583d96ffe4fd"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2024/soudal-quick-step/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 6794,
+      "sha256": "7da33e1fa2613948bdea37387a5920c69f4050f1d924b4ca344ebfd7e8a80d54"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2024/team-dsm-firmenich-postnl/assignments.csv",
+      "profile": "archives",
+      "bytes": 200686,
+      "sha256": "302d206d73248591a8de1e82c01a689d9a06c583a62acc0fefe944cb17ef0f73"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2024/team-dsm-firmenich-postnl/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7466,
+      "sha256": "dd69d43c6506a3cd75304ffc6d8485ad9fda49ad1ec21806ce38956807956f32"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2024/team-jayco-alula/assignments.csv",
+      "profile": "archives",
+      "bytes": 197372,
+      "sha256": "0a577f3bc7c1084aaa702353570448c5d9faad02b64fd5ce3f06e0e94e1f30f1"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2024/team-jayco-alula/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7708,
+      "sha256": "bc4d77e687559411de8f7878bb6967c9675aa91522f99b4c720cbaf1033ff8fc"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2024/team-visma-lease-a-bike/assignments.csv",
+      "profile": "archives",
+      "bytes": 138606,
+      "sha256": "24722eda442d4814b24ffb9649fb48e133215c4d6a3438a3b17e798ae9db1ddd"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2024/team-visma-lease-a-bike/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7090,
+      "sha256": "ed96b7ea906f5cabda9390e5d3f1d6aa96c09ba34efc5e807c868ffba3910285"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2024/uae-team-emirates/assignments.csv",
+      "profile": "archives",
+      "bytes": 224176,
+      "sha256": "7dffcf345003aaaf6596d967a0b0f506e5683027f957f99f60eb741c0afce00a"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2024/uae-team-emirates/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7420,
+      "sha256": "dff4284c1906eee6ea85ebbc0d012f2318f5876adddad185724d57acdd98afbb"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2025/alpecin-deceuninck/assignments.csv",
+      "profile": "archives",
+      "bytes": 193227,
+      "sha256": "4ce4eda516d08e536e5e5fc324acde6c5254e835bbedeb244f44da4ed8d20da4"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2025/alpecin-deceuninck/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7335,
+      "sha256": "fb213072dbe0e9f13efc97339742b0b72b43fcd3fdcb6e349c187640718e6095"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2025/arkea-b-b-hotels/assignments.csv",
+      "profile": "archives",
+      "bytes": 222175,
+      "sha256": "575a59e26d16842403edeced254725ae5682323d180561ba33243810c8e2fbe6"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2025/arkea-b-b-hotels/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 6769,
+      "sha256": "dd2cd5de338247548268cefa4ad57333d1342ba5cef37f4c2b75adc92f47e6af"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2025/bahrain-victorious/assignments.csv",
+      "profile": "archives",
+      "bytes": 173363,
+      "sha256": "66730c095d130cf931cd0c893e77777fdd15ef133849414caa591cbda5ca0bdf"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2025/bahrain-victorious/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7355,
+      "sha256": "403536c93ac991c30ff2c19ee9e2d0c90b86b24c7876e582dd847cadeaf83f18"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2025/cofidis/assignments.csv",
+      "profile": "archives",
+      "bytes": 274495,
+      "sha256": "13d2eeaa95f2ddaa37a175845a5a8897f79b7e26e362d124540e4e5443d92f55"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2025/cofidis/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7276,
+      "sha256": "3792d26b320b668378b644bb48fe04e31f8da44c71501901f43d483029004fb6"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2025/decathlon-ag2r-la-mondiale/assignments.csv",
+      "profile": "archives",
+      "bytes": 186255,
+      "sha256": "fe77122071baa83759d8c01c7de7672ad1a54e6253d8c985101d9b4d92917281"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2025/decathlon-ag2r-la-mondiale/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7903,
+      "sha256": "e35bfdb69ab856b6ad80964cad465949ad93e148e4637548384fffba765b32bb"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2025/ef-education-easypost/assignments.csv",
+      "profile": "archives",
+      "bytes": 188255,
+      "sha256": "2ef4beadf244c063eb57acb1528d85838480405dd271a18eb97980ec77df2791"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2025/ef-education-easypost/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7579,
+      "sha256": "7f6823b847c69c22a292d78ba81a96eb1f7b7be413ecdb5ed027252baf9e6a8a"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2025/groupama-fdj/assignments.csv",
+      "profile": "archives",
+      "bytes": 194816,
+      "sha256": "6a0ba4067bdfce3afb674fce0b904cf69ef42ef5f61db721dc2088ec49bdf0fc"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2025/groupama-fdj/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 6831,
+      "sha256": "bd9b49792f9ad0294003758a4febdf0dd68721af5c6ebf6ea522f7ccf598a7e4"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2025/ineos-grenadiers/assignments.csv",
+      "profile": "archives",
+      "bytes": 142386,
+      "sha256": "b8fa99f09de889099b9051c477dc2318b68f457db5d627bbbebf444b2d92fbff"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2025/ineos-grenadiers/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7023,
+      "sha256": "e0f92b89dff94eeb4b8da7f31123ce13eac6377bf245de9d83c5850c3393db0f"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2025/intermarche-wanty/assignments.csv",
+      "profile": "archives",
+      "bytes": 243528,
+      "sha256": "2734dfa4faad3ff88f51d09b79ad655f1f14424e7ae69bc6930d0fdd0d522aff"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2025/intermarche-wanty/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 6763,
+      "sha256": "fd64e3a412a96dc389b398402443be244281ad09d5244c51fc0211f157e7fb7b"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2025/lidl-trek/assignments.csv",
+      "profile": "archives",
+      "bytes": 168432,
+      "sha256": "2efa8890f723bd4913b561df17c06e1077f8770b40f4687a6fa479abac457b5f"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2025/lidl-trek/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 6899,
+      "sha256": "c21caf092441a487933fee7c88cd62288ca2f992381268fc76ee536a5a5c1d4b"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2025/movistar-team/assignments.csv",
+      "profile": "archives",
+      "bytes": 206685,
+      "sha256": "36929a8af4f15c538c5e65f7d3541588aa21db6c7fd53abdcfff3adc87396e5b"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2025/movistar-team/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7137,
+      "sha256": "86b3156cef03c834677205b5fe20f1b3e4d9888ed9820aabcb8a4cf6ea23dfec"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2025/red-bull-bora-hansgrohe/assignments.csv",
+      "profile": "archives",
+      "bytes": 176518,
+      "sha256": "bf8cea43e530bc7296eccf4f8fcf224ae754cc7cca0678bc693d37434c8cb96c"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2025/red-bull-bora-hansgrohe/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7433,
+      "sha256": "4453e2d5d3d744770eac48d7dcd6137a025e3685f01babed999ccd4fe19880f5"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2025/soudal-quick-step/assignments.csv",
+      "profile": "archives",
+      "bytes": 184739,
+      "sha256": "b87d06b5685d1ae263232547df85803cbf92bccfbee2b8c387d3bdd5fee04984"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2025/soudal-quick-step/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7335,
+      "sha256": "3c4e8e705144ba69ef6e935d675500e6618f5ea9acd7cdac735845e0450953d8"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2025/team-jayco-alula/assignments.csv",
+      "profile": "archives",
+      "bytes": 190807,
+      "sha256": "b220214c556313d02d23476e241c7c062232fba7066cba663ca19ffc9e00c49b"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2025/team-jayco-alula/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7244,
+      "sha256": "f464a65b76265d16dd1cbf5fda52cf1b2dba996fbe43c7217b1ce4f7ebfc55be"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2025/team-picnic-postnl/assignments.csv",
+      "profile": "archives",
+      "bytes": 189281,
+      "sha256": "273c6947a5541151cbb90cd42815926581041d7173e7bbdadc743a2115842c11"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2025/team-picnic-postnl/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7296,
+      "sha256": "75b0278bb9bb16458e00b15e127408f5cee2f630460f4cb26a2d17f74b4cde9b"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2025/team-visma-lease-a-bike/assignments.csv",
+      "profile": "archives",
+      "bytes": 160914,
+      "sha256": "f2703d02bd168da3998595f26880d97846135191ad6bc5471944801afb7d727e"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2025/team-visma-lease-a-bike/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7480,
+      "sha256": "fc6b7e5e16577f251b5a2520578929af1830072d685893b921f5712a5861b26b"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2025/uae-team-emirates-xrg/assignments.csv",
+      "profile": "archives",
+      "bytes": 219860,
+      "sha256": "974ee7ab588f0bd6e5a85d8f34c03dbe0090a391c586dc5a9dbc5df9c82a422f"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2025/uae-team-emirates-xrg/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7459,
+      "sha256": "0a1f691a9c3a5e28cd89a9d6e852dadc585b3d37a153920d427dda2ff23cb3f4"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2025/xds-astana-team/assignments.csv",
+      "profile": "archives",
+      "bytes": 251657,
+      "sha256": "2ce77dd50d6858ebfed66624ff86fac7ff70d76c3584445b14a7a8a7c5714695"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/ranker/2025/xds-astana-team/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7242,
+      "sha256": "c2d947af0ce5e05163d525850239c10a49443081f1679332f45a431971a77cda"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2024/alpecin-deceuninck/assignments.csv",
+      "profile": "archives",
+      "bytes": 202191,
+      "sha256": "d4addfab5135d3659ecc5b93f201a453dca70b3d4a99bbc8b11b2caa87cc3794"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2024/alpecin-deceuninck/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7522,
+      "sha256": "522b3b38a087a1b9b71b6323bb03c846a9c73a37b51545eca8c364556df634bd"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2024/arkea-b-b-hotels/assignments.csv",
+      "profile": "archives",
+      "bytes": 283111,
+      "sha256": "1826e148cc78f5b6e434ae4021358b6ac47b68f954a777ab6147a14f30ac15b7"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2024/arkea-b-b-hotels/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7425,
+      "sha256": "248e695e818968bb748cca2e62182a170a903b10e4329c1da2ba05dc883863fc"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2024/astana-qazaqstan-team/assignments.csv",
+      "profile": "archives",
+      "bytes": 202173,
+      "sha256": "bc4cbbaf3ca90192020bb8da1d25d4c1caf2133595d37c4968a7fb9c2f951e4e"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2024/astana-qazaqstan-team/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 8452,
+      "sha256": "c90576fbcbf34fffee04ad64c4e6e3c5a025c12b4aa3f01f01bc7661797d8dd9"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2024/bahrain-victorious/assignments.csv",
+      "profile": "archives",
+      "bytes": 130363,
+      "sha256": "d3ad5a618509f2038d681677e73415b1b5810a7206e87d15ca87a05714370ecf"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2024/bahrain-victorious/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7775,
+      "sha256": "c691b86666cc9976169c631a5f9056f550d9e14abe75faeef8013b239967dcf7"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2024/bora-hansgrohe/assignments.csv",
+      "profile": "archives",
+      "bytes": 183161,
+      "sha256": "9a7901e41076a0a2b8bf08c823b07c3c3853228456f38cfd45ac42dcb5159583"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2024/bora-hansgrohe/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7076,
+      "sha256": "48e57d1ff9319748025c28f7ff3c918c0a867d17331640c89c7a3e4da8b4d88f"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2024/cofidis/assignments.csv",
+      "profile": "archives",
+      "bytes": 272498,
+      "sha256": "3694b6efb71f5d8e18392853df5ceb426aa45a72574c0fa98b76db4c1d5e9014"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2024/cofidis/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7522,
+      "sha256": "9424d9bdf639e03efed8afd36230cf870f77294d984e99bbc737183f7677372d"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2024/decathlon-ag2r-la-mondiale/assignments.csv",
+      "profile": "archives",
+      "bytes": 208178,
+      "sha256": "5b70ed0a77f6dfd5a0fd760139327616d7a26b3c74e59609546b2f0fc34fe323"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2024/decathlon-ag2r-la-mondiale/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 8087,
+      "sha256": "1348d4984f45ef7b49d9b91e8eb8f0f0aade8de8e087f7d574eaddb84023f43a"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2024/ef-education-easypost/assignments.csv",
+      "profile": "archives",
+      "bytes": 180780,
+      "sha256": "a367a14c5984ee1b7dc602a0b01865b77f4a3a5642033806fcd02caf2e68fede"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2024/ef-education-easypost/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 8235,
+      "sha256": "8bde943c15cb84474eaacae9149f2c0cd5b3c23455343a2c980050b3446200a3"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2024/groupama-fdj/assignments.csv",
+      "profile": "archives",
+      "bytes": 190062,
+      "sha256": "a5f0e96486bb30036714a49d0bfeba2d0065040d6450377e70e546829894c470"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2024/groupama-fdj/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 6565,
+      "sha256": "3113bd91c39596a1667883ef6b86ec570dc273139d1df3cb0b0bd37df6425780"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2024/ineos-grenadiers/assignments.csv",
+      "profile": "archives",
+      "bytes": 127033,
+      "sha256": "4d1e90f2031ffc0782df9ddc7152b9d0909d2ed18830fadb5d4cfc137e059ded"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2024/ineos-grenadiers/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7285,
+      "sha256": "707ea90542f3879c0941b0fc431c30652da5409a07cb7ca0027950d0c100000b"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2024/intermarche-wanty/assignments.csv",
+      "profile": "archives",
+      "bytes": 241386,
+      "sha256": "9eb20697b57a8120da3db9c0663bbd1391ee319e9c7370b73d2068beabfb5e9b"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2024/intermarche-wanty/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7474,
+      "sha256": "dd6783cb90d5b79f5c19bc30469a3827a18bc76d5f4971b20ef04ba69ff317e5"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2024/lidl-trek/assignments.csv",
+      "profile": "archives",
+      "bytes": 158724,
+      "sha256": "91e361845c2f62f311fe365934998e0dc15f9402009d6d3c1cb43df5e62c0acd"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2024/lidl-trek/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7026,
+      "sha256": "2658ec8bb498d914844622e3b6cf903a263a5b865ff04ac2570511654df18ef2"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2024/movistar-team/assignments.csv",
+      "profile": "archives",
+      "bytes": 189498,
+      "sha256": "f415b32657acae0c856baa81aec2bbcf2a19659590cfbe48e0b0a2024bd671f7"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2024/movistar-team/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7252,
+      "sha256": "c83aa456a04739d19a60b512ae7d1e6b37cdad79b8f0a620753c34b5f34db041"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2024/soudal-quick-step/assignments.csv",
+      "profile": "archives",
+      "bytes": 170717,
+      "sha256": "3dce3049142b31f036436d467f845b487e11cf3d7c22a460a71102c5a4fc0c09"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2024/soudal-quick-step/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 6962,
+      "sha256": "097b9c20b4532d9b6ed2148a5abef62be5e6d803632452101b92ce9e3c1766d3"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2024/team-dsm-firmenich-postnl/assignments.csv",
+      "profile": "archives",
+      "bytes": 203983,
+      "sha256": "1582163a99a7792454b3d7dafa5da6e625c87ca79de92521d23f0423341343d6"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2024/team-dsm-firmenich-postnl/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7639,
+      "sha256": "3e8511706c8e3c2c693f1afa5fb10f4fb4335cb722ef9ba27b6aa2d3581a8b5d"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2024/team-jayco-alula/assignments.csv",
+      "profile": "archives",
+      "bytes": 200680,
+      "sha256": "ce8e2f1364b277f2868ed696770e43ce54e8b8cabb749af1adc095facc630c43"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2024/team-jayco-alula/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7904,
+      "sha256": "3ddabd3c381fc5385295b3bef1d7a514ccdeb71b4637ed72a1dafaffaf901e39"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2024/team-visma-lease-a-bike/assignments.csv",
+      "profile": "archives",
+      "bytes": 140934,
+      "sha256": "993ebf45222177c82f766628e29393fc2b348d5b573b9797689dd4953351684c"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2024/team-visma-lease-a-bike/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7260,
+      "sha256": "c12bddba9b0f896efa4b71efe79ed34c6b282a8d8e82e9196656d55d62b06ccf"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2024/uae-team-emirates/assignments.csv",
+      "profile": "archives",
+      "bytes": 227877,
+      "sha256": "17bc681ee73cf30041094446bfaf91086e540a8e4a5bff3833ca4600b78b40c3"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2024/uae-team-emirates/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7593,
+      "sha256": "0ee97a9490e65bd48007f796a8ef3bbfe8ca1a19c79047db524f6ea3d3b36e8f"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2025/alpecin-deceuninck/assignments.csv",
+      "profile": "archives",
+      "bytes": 196539,
+      "sha256": "a8f3e254eec289f98e6c4ace42abca4cda1576cfa351b5c566837058d669d309"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2025/alpecin-deceuninck/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7515,
+      "sha256": "ffe3b6bcdadad71459ebfecb8a42d756413d64d3fc3f71a42c94be65ac60c04b"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2025/arkea-b-b-hotels/assignments.csv",
+      "profile": "archives",
+      "bytes": 225901,
+      "sha256": "d3cad0b85fbee371200c815820cb394fa8fe2c9ae2a764028883f75e2562bd5b"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2025/arkea-b-b-hotels/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 6933,
+      "sha256": "901aa977ac1891267b5599f3c38bcc0b17c383469af1d33e5e1cbe6325782558"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2025/bahrain-victorious/assignments.csv",
+      "profile": "archives",
+      "bytes": 176376,
+      "sha256": "22b9d079ddc5d3e2aed9800fde8df618eb6d6f82236f7d7aa2936ec2a2a75d7a"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2025/bahrain-victorious/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7535,
+      "sha256": "1b2e3af0ac0a934fdbdab5b7cfcca2c5260dbc997da4d28cafd1a55467cf510e"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2025/cofidis/assignments.csv",
+      "profile": "archives",
+      "bytes": 279368,
+      "sha256": "51de0fa1d80dcb017301b1f48a4ce9ebc712466679cf810aafe819274232259e"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2025/cofidis/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7468,
+      "sha256": "0e64a7005e6957febc22b231dbfdc4c8f739d0aee06baf527ca49158e321bac1"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2025/decathlon-ag2r-la-mondiale/assignments.csv",
+      "profile": "archives",
+      "bytes": 189273,
+      "sha256": "8beb6c8c9080a11312f917aa45aa5e45d5b98107cf4e68f7d5d99b305cb066f8"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2025/decathlon-ag2r-la-mondiale/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 8075,
+      "sha256": "1c8f7a137d8d9f17acf82e4eeeb73c1b9559fab63c38773078fe3d5ca74f836c"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2025/ef-education-easypost/assignments.csv",
+      "profile": "archives",
+      "bytes": 191278,
+      "sha256": "b69631bebd79d47760c0a6c308b9172560e2ee08c1905f47adecabeadb2f4d52"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2025/ef-education-easypost/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7758,
+      "sha256": "12ee51e8de707248e84ce1a45437e922ad36201d9bf1abb146a69edfb9163c11"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2025/groupama-fdj/assignments.csv",
+      "profile": "archives",
+      "bytes": 198402,
+      "sha256": "9e4a27b7cdab8fc95b07ed6f839c505195a2259f846778d88a74c16b619abfcf"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2025/groupama-fdj/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7009,
+      "sha256": "4c1840f40469afc61f51b7c504f8928e761a2eef478adb6dfd08d57201a077b0"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2025/ineos-grenadiers/assignments.csv",
+      "profile": "archives",
+      "bytes": 144877,
+      "sha256": "da0d8903989fdde0f2b39b0834299ab92fa0efcfdd8172930d14d51703c8c60b"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2025/ineos-grenadiers/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7204,
+      "sha256": "d29579cb8f2b456b0410633b0602d585dd50b86ddc4f0f20d628b606125f5d30"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2025/intermarche-wanty/assignments.csv",
+      "profile": "archives",
+      "bytes": 247641,
+      "sha256": "ec092f5772cab0e4f66ad605d8cc397365991835ba04f6007cab19e9f8b8edbc"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2025/intermarche-wanty/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 6928,
+      "sha256": "63f98720ee7374eae449ef9bcea2b4630ed9accd2d31996e251e2a2a3761c0f0"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2025/lidl-trek/assignments.csv",
+      "profile": "archives",
+      "bytes": 171315,
+      "sha256": "e3569487c23617cca9369eaa7fe8a7822d249c73ad4deb93d7c9c0aa1e216621"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2025/lidl-trek/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7087,
+      "sha256": "e1870e26b5ef34809ce9ac25a20c760e58c9b1237dd7e1669ba259cb4b755e54"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2025/movistar-team/assignments.csv",
+      "profile": "archives",
+      "bytes": 210205,
+      "sha256": "d0368a0e89132d0225313e6a58e8be39eb5abdb578e09f7feb09d3bcf60a5d89"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2025/movistar-team/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7316,
+      "sha256": "1fc0acbe3d9c8948d04f48190e391ec4f7f6eee0b13de3d9fcb7c3b71e3be29c"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2025/red-bull-bora-hansgrohe/assignments.csv",
+      "profile": "archives",
+      "bytes": 179327,
+      "sha256": "2eafbc3efcb62158fd8ff8e68c7983da2fb5df88136a5dcfd5e51a66b94b322c"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2025/red-bull-bora-hansgrohe/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7611,
+      "sha256": "b1424fa3992f0eee4354403bffa14cb50b8d356b27a24d999cac4b520530fb74"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2025/soudal-quick-step/assignments.csv",
+      "profile": "archives",
+      "bytes": 187866,
+      "sha256": "366d7df064ac0c0783bb8cf6d905b107789a6872fd1b955e6bb1ab857f978c8a"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2025/soudal-quick-step/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7508,
+      "sha256": "dea81c2fc16fde902a0da29a6429f5944ce08869928b6acfe8cb438e8f5eb88a"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2025/team-jayco-alula/assignments.csv",
+      "profile": "archives",
+      "bytes": 194051,
+      "sha256": "be8ae5733f472481ef255f543132563d89a173b687a84837e703556e41fa917b"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2025/team-jayco-alula/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7418,
+      "sha256": "0ea7e779d5ddda537049b19bf0753efca31a060eeead5378eb9a5ef49b15040f"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2025/team-picnic-postnl/assignments.csv",
+      "profile": "archives",
+      "bytes": 192489,
+      "sha256": "a0df03de9053de6adc7da54b0c72fbd339257debe96a9c2c7afd41798b47db9c"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2025/team-picnic-postnl/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7472,
+      "sha256": "7ba3ce038b20d31b2d19bfa70ba626b3c35a7e545a8d20874f6e503f0765d5c2"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2025/team-visma-lease-a-bike/assignments.csv",
+      "profile": "archives",
+      "bytes": 163561,
+      "sha256": "5536b6f8cf77a17afb47fad554733c31c9adf6a083dbbbba36338571ca3bf803"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2025/team-visma-lease-a-bike/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7659,
+      "sha256": "67b14188b57df486ebc107cb8f0fbe8d24267c6415084940492415946454a93f"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2025/uae-team-emirates-xrg/assignments.csv",
+      "profile": "archives",
+      "bytes": 223514,
+      "sha256": "33f36efd154c1b5ee38f1dfd5dc53313a017c4abcefd927317e98ec3a9451536"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2025/uae-team-emirates-xrg/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7640,
+      "sha256": "b4bd4b0f5e0b27a6c8862a0bb4b7daa29e895548be83adb4461d056232601005"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2025/xds-astana-team/assignments.csv",
+      "profile": "archives",
+      "bytes": 255862,
+      "sha256": "bc11dbfd7bd4803cd74558a71497042f73027083033196e3f9da7e424af13392"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/ranker/regressor/2025/xds-astana-team/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7409,
+      "sha256": "48b0e1f321212114324f8aa4e0e1efc8cb6f68661148e2d51c7a471603bacf88"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2024/alpecin-deceuninck/assignments.csv",
+      "profile": "archives",
+      "bytes": 202228,
+      "sha256": "a8bfed25419990371b822906699f65d5007b5cf21e193f8fcfde9b9a7649580a"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2024/alpecin-deceuninck/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7509,
+      "sha256": "89944843bc4406437dfff2451c2fdb9d32f58ada8f42fa9157ddf633c9f6a47f"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2024/arkea-b-b-hotels/assignments.csv",
+      "profile": "archives",
+      "bytes": 283079,
+      "sha256": "1ec061fb09695adff394c0bbea4c30cdafe0210a6020bc6612bfaa77f8bc63e6"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2024/arkea-b-b-hotels/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7419,
+      "sha256": "f574ceb58acd01322a11b3f4ebb3e2c11d5577d18c5824068313caeed0d64569"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2024/astana-qazaqstan-team/assignments.csv",
+      "profile": "archives",
+      "bytes": 202804,
+      "sha256": "ed4c24f297cdacafd818762b7c8265ea390b1ddf14421b8f68b9a09fbb909ba9"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2024/astana-qazaqstan-team/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 8444,
+      "sha256": "c601b2fbb141046892122b580b4300b250e105a9d94eaec695764bc670a9131d"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2024/bahrain-victorious/assignments.csv",
+      "profile": "archives",
+      "bytes": 132511,
+      "sha256": "5d8fa6500b5246471bad564f9cd042d25de7e3351d026951cfa6a4f554d47255"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2024/bahrain-victorious/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7750,
+      "sha256": "504724249eabe6cf8d94bdb7eac819862afd38f2695871216aa341dfb0c61439"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2024/bora-hansgrohe/assignments.csv",
+      "profile": "archives",
+      "bytes": 184218,
+      "sha256": "a09cf7b4f143858547210eadb2a6c551c2e235b643a395890b385f3724d80057"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2024/bora-hansgrohe/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7080,
+      "sha256": "dc7544175605629b1152ea7df4d037960261b5acc20e00bb0b20ed6bbb7389ac"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2024/cofidis/assignments.csv",
+      "profile": "archives",
+      "bytes": 273161,
+      "sha256": "28c20b537ebc3454cda0379ba28e97bb50bbdd217f64fae45be94eebf46ebebf"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2024/cofidis/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7524,
+      "sha256": "67a1e72d56ae0a999927880797c50f0563852013fe7c0f26644a084e7a8ebbd8"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2024/decathlon-ag2r-la-mondiale/assignments.csv",
+      "profile": "archives",
+      "bytes": 206855,
+      "sha256": "1f47bd5841ed4a3e655c31a14954ca298bf4213a0c1e1d4e4232ce4e28267d06"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2024/decathlon-ag2r-la-mondiale/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 8076,
+      "sha256": "281c7eba815ded25844fe70b8498d4a8c2716939d2827a3dddf5bf7db94471cb"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2024/ef-education-easypost/assignments.csv",
+      "profile": "archives",
+      "bytes": 180833,
+      "sha256": "84992dbce74c012acafe7aa63fbcdf280a4231ce725c010ece8f8484c56c03bf"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2024/ef-education-easypost/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 8229,
+      "sha256": "f4fde5a88b57a4fdcbf77f74d99e1205a0985b6c0cba90e5f20a6a84013d4f72"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2024/groupama-fdj/assignments.csv",
+      "profile": "archives",
+      "bytes": 190615,
+      "sha256": "db4e17d3954559b897c7ada167b4432fc47ba6bd07775d5d7a9bf5fa226d8bae"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2024/groupama-fdj/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 6565,
+      "sha256": "df0dff822db0b0d2a4b10cabc9b4978010b561ded01cb1e6df182a8be6f1b883"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2024/ineos-grenadiers/assignments.csv",
+      "profile": "archives",
+      "bytes": 126328,
+      "sha256": "f6a5722f036e17975026cf713fd0f440fe48a6cb729756c4d3caee84bdb6bb61"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2024/ineos-grenadiers/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7277,
+      "sha256": "c5ac3b891074a266ce13087a85c20e69bb29937a9db2effbde51fff22d065d7b"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2024/intermarche-wanty/assignments.csv",
+      "profile": "archives",
+      "bytes": 240544,
+      "sha256": "928ddc9268fc24b712108eb563d7f241bb1068552f9a7a0a40ad494c2c5229b5"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2024/intermarche-wanty/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7453,
+      "sha256": "67a3143eb0b57e465af9db59384c09e72f8153fb011b64ef3fecf25dbb95ea7f"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2024/lidl-trek/assignments.csv",
+      "profile": "archives",
+      "bytes": 157835,
+      "sha256": "de4500ab3a909cfd90f847cf2ce07afcf41bfffb5fd70dbcc0372fa756924b29"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2024/lidl-trek/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7016,
+      "sha256": "ffe71cddfbad5529deda4477820997a53dbf96dfbf99506d61c9a9e67a29b795"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2024/movistar-team/assignments.csv",
+      "profile": "archives",
+      "bytes": 189650,
+      "sha256": "419e863e2e730d7790977682486b8d5f90164bbbc7b05102765689b4dc2c16ee"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2024/movistar-team/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7248,
+      "sha256": "2304057c0696ae643f11bfe0adb2001cd01cedd259b9125b0a9fc4a421c2f948"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2024/soudal-quick-step/assignments.csv",
+      "profile": "archives",
+      "bytes": 171936,
+      "sha256": "1826976e21e188b51ab5d057ceffd80c7e50c43210946d4e467893680bfc9eca"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2024/soudal-quick-step/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 6958,
+      "sha256": "a42b2b012a47fcdf5ffa7a61c68d2e81e761803a440328f4d6218eb4bf890394"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2024/team-dsm-firmenich-postnl/assignments.csv",
+      "profile": "archives",
+      "bytes": 205527,
+      "sha256": "e659196ac8b91170c00c7d20fc26b7b662b4ebcc54824dac9a5d4a66a9797c62"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2024/team-dsm-firmenich-postnl/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7637,
+      "sha256": "e8a9d4ea3240d12d762919ef5847e6ec7c7e8ca8958bc915377b3719edd4c0ec"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2024/team-jayco-alula/assignments.csv",
+      "profile": "archives",
+      "bytes": 201316,
+      "sha256": "a647a5b61dce3fc35aec680bd4134b2a84931ce7e8c27ec8089ead21bb917792"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2024/team-jayco-alula/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7891,
+      "sha256": "ff997df795bce960dc1af0d27a9a138aed3c2b4064a2ccd5f96e8947140e9cb7"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2024/team-visma-lease-a-bike/assignments.csv",
+      "profile": "archives",
+      "bytes": 143109,
+      "sha256": "86751f83c45c4bf8a51b7657a2215a44bbb2215fd6161dca9441fd65d7fbde73"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2024/team-visma-lease-a-bike/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7252,
+      "sha256": "c4d3363c3fdfce6c9a05086ac44ecf052ef345ccc0838e58d9464b74ab1d2803"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2024/uae-team-emirates/assignments.csv",
+      "profile": "archives",
+      "bytes": 228209,
+      "sha256": "e8b7b00f928bf558f9f5899923246cf43ab4fafa311292dc3e677d540f0a4603"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2024/uae-team-emirates/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7593,
+      "sha256": "abb1365e21d171e89973e5ca0b6920d912e54e262615d09a236d17126ecf2239"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2025/alpecin-deceuninck/assignments.csv",
+      "profile": "archives",
+      "bytes": 195253,
+      "sha256": "784e9ae732471dddd0183b02c1452fb64c54e9c4a7b3f85fd52ed90d8e775c87"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2025/alpecin-deceuninck/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7505,
+      "sha256": "b09279f4c3f2524941418916c352b4a09b5686269434713662352aa6edb2f74a"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2025/arkea-b-b-hotels/assignments.csv",
+      "profile": "archives",
+      "bytes": 227049,
+      "sha256": "b838c793e8c8137490f558ad4c751881694a623ab82cde6c1d3e05fd67517268"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2025/arkea-b-b-hotels/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 6931,
+      "sha256": "ef59274dab651e82c15536377cde0929c69ca2b4d972bfa1a0726760e989ed17"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2025/bahrain-victorious/assignments.csv",
+      "profile": "archives",
+      "bytes": 176698,
+      "sha256": "a0658ba04cefa9bd246944c767684eecf0e71eb71134cffbb860f83e500aab3c"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2025/bahrain-victorious/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7527,
+      "sha256": "aa43335f9b0bdd1b0abed3b4856632ab0ff08807c541342c404c47a52771ac56"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2025/cofidis/assignments.csv",
+      "profile": "archives",
+      "bytes": 279952,
+      "sha256": "892c833aa7576110a7442f1f1c1e712779295379cac3894601a952efbd001c8d"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2025/cofidis/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7466,
+      "sha256": "39c5e78836e49b7e596d7870a7659903ce2a3acf44176376f8c7846b7927a70e"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2025/decathlon-ag2r-la-mondiale/assignments.csv",
+      "profile": "archives",
+      "bytes": 189642,
+      "sha256": "82eca7cf1ac01a5845cd31fbb076c9d6fe34db1ebdf4d6754b8accd04c2455f6"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2025/decathlon-ag2r-la-mondiale/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 8073,
+      "sha256": "5069d2d4192526532905811ff5ec6d57b8151782916a522e748d5c8623c61d97"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2025/ef-education-easypost/assignments.csv",
+      "profile": "archives",
+      "bytes": 191278,
+      "sha256": "14b0fac11f304c0feef510d4b263f4f62905238de0c28b7ecc5ee06b9940b5a8"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2025/ef-education-easypost/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7753,
+      "sha256": "c4f57d0a952ffc7064270381a9209a783caf17516317e8ecebbf712e1d5c509b"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2025/groupama-fdj/assignments.csv",
+      "profile": "archives",
+      "bytes": 199446,
+      "sha256": "17d9abab4ef4ad956085dc5f0b118ec93a938114a4814f04b1f6e7d917c21d4c"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2025/groupama-fdj/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7013,
+      "sha256": "834ab57e0aa1a062a728b15e8aac3f912c6a512f2c618063eb8473dba7f6af37"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2025/ineos-grenadiers/assignments.csv",
+      "profile": "archives",
+      "bytes": 145188,
+      "sha256": "61113ca052b7f3d22a12a846985a886121557ab940a2e33c2423b45c5ea76d39"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2025/ineos-grenadiers/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7190,
+      "sha256": "8b2797b5bab3a0fda4f8e102cdaac1ffd6ad907452f54439e7abbb090a5aaa06"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2025/intermarche-wanty/assignments.csv",
+      "profile": "archives",
+      "bytes": 238461,
+      "sha256": "ecd06a682cbdf5168c46eb0cc3694982f0014fa2f38abc1daf7bbb6dd70e793d"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2025/intermarche-wanty/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 6935,
+      "sha256": "b5bba955e2dc762cd55ce140bcdfeb129faa7d56b4ea14cf62b67b23f7a26aef"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2025/lidl-trek/assignments.csv",
+      "profile": "archives",
+      "bytes": 171709,
+      "sha256": "ee750339606c31cd4ac473b7fc55bff87d1efeca63393e9f6fc7ed8950037e57"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2025/lidl-trek/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7072,
+      "sha256": "eeaa2b3751b70308526da5cac30a75f74844e15467acda1a0467f8f79cc3163e"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2025/movistar-team/assignments.csv",
+      "profile": "archives",
+      "bytes": 209822,
+      "sha256": "caf3b9776d6c34b651948f9adc214070c3fe3755a4f6eed3eca2c1683cfa1d3d"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2025/movistar-team/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7306,
+      "sha256": "1c696d43131c88bb8f12afacaa862fbcc44502d13e6a12d574682aaa2331e27a"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2025/red-bull-bora-hansgrohe/assignments.csv",
+      "profile": "archives",
+      "bytes": 179107,
+      "sha256": "e06e074aa70fd7ea18490520851560e286e5ce81376a7e03aa0d99b63d7dfd6d"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2025/red-bull-bora-hansgrohe/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7594,
+      "sha256": "d50c35f2184aaee33a6404339058ed609b36d52e7ce57324b34a6818e0ecf0b5"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2025/soudal-quick-step/assignments.csv",
+      "profile": "archives",
+      "bytes": 187848,
+      "sha256": "1d28383fadd18425a04db94fa19c8c11a1481198451dda4e066954e40bde2827"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2025/soudal-quick-step/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7509,
+      "sha256": "d47b25af75f185228a34478deaf2c5c3f23f665350a096d7a8afea83993b0d93"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2025/team-jayco-alula/assignments.csv",
+      "profile": "archives",
+      "bytes": 194593,
+      "sha256": "6ec4ea136a88168bce092aa5c8c257ccba8b252287e07b8e8258b5da0914f536"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2025/team-jayco-alula/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7411,
+      "sha256": "42e5b54680525e218769e238f347d56140ff39ca43598541d3c18d9fc7ba396e"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2025/team-picnic-postnl/assignments.csv",
+      "profile": "archives",
+      "bytes": 193109,
+      "sha256": "027d679a4f5ed00c9debcfff2ffd9dd92fb70422ede0acd6d86aa3bb559f89e7"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2025/team-picnic-postnl/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7477,
+      "sha256": "b0dcc3c2e97fb01a549982181f4328678fbc349ae93461206c132f087d13631c"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2025/team-visma-lease-a-bike/assignments.csv",
+      "profile": "archives",
+      "bytes": 163556,
+      "sha256": "c6585d3dc4a15cb9a8eb8413f1f4449c5b8093dbe107aa94ae48ec834af4c264"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2025/team-visma-lease-a-bike/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7654,
+      "sha256": "5a747eecab170028e7e4bc01e2495e6f9a90cf7585e6440c61eddefa2b6a3163"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2025/uae-team-emirates-xrg/assignments.csv",
+      "profile": "archives",
+      "bytes": 221794,
+      "sha256": "5420c7ed7552936934a3b1d079b5b21f4a681115d3c7603636228012e7d8c84e"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2025/uae-team-emirates-xrg/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7617,
+      "sha256": "dbb63896c28f77c6f4d990a636a76a11631662c3517e510c3bd1f64a1dacc25b"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2025/xds-astana-team/assignments.csv",
+      "profile": "archives",
+      "bytes": 256590,
+      "sha256": "3ac501a5b6227511e3750a555f9494cfa67c7a47edc099ba46f89b34352dea0e"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/ranker/2025/xds-astana-team/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7412,
+      "sha256": "8f334a9fa0a50f3211bcda560ab1d99a6313ccd5f2ac48e786d1dfda6db75084"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2024/alpecin-deceuninck/assignments.csv",
+      "profile": "archives",
+      "bytes": 205719,
+      "sha256": "0d057169d0660be3aef40aa5a4089edefe71f6296ad5287b5b9dda6c8ccc6d27"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2024/alpecin-deceuninck/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7713,
+      "sha256": "31055c4110abb1df31b9810e78c744428d64e0b682b2fb8817521714e3dddfa5"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2024/arkea-b-b-hotels/assignments.csv",
+      "profile": "archives",
+      "bytes": 288044,
+      "sha256": "30756cb822baa84dbf791151e64cddbfcaf3c1661262b7534fc3df64eb5dd141"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2024/arkea-b-b-hotels/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7604,
+      "sha256": "5811c456ef7105087b61e2f02855fb2910b52987bf36d76de9eb97a04ede1d84"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2024/astana-qazaqstan-team/assignments.csv",
+      "profile": "archives",
+      "bytes": 206440,
+      "sha256": "4610214f0e6d00590bfdd68473f22be9bf06159c5624313f85a2a681549a8ef2"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2024/astana-qazaqstan-team/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 8667,
+      "sha256": "4da59a362f2d27324cc47c98a4eaffe454024537b7286249ddcda5b8610aa825"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2024/bahrain-victorious/assignments.csv",
+      "profile": "archives",
+      "bytes": 135018,
+      "sha256": "4be06a535c3ae5c9aa16a01fb763e882fdf40aeef5ff4cf182036025ee4b68fa"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2024/bahrain-victorious/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7962,
+      "sha256": "3c0fde1a1f475b1c4cc6a54a326b47a71a9c4a4850bb6f020baf241318e688ab"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2024/bora-hansgrohe/assignments.csv",
+      "profile": "archives",
+      "bytes": 187496,
+      "sha256": "6002b256eb2b8122f34699e21aea547497eb9788d41a66a4377fa0c50b11f52f"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2024/bora-hansgrohe/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7257,
+      "sha256": "8e40ba0f4427927ee59ab56d2b40538ef0a32d1cb1dee282471fbda25126b625"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2024/cofidis/assignments.csv",
+      "profile": "archives",
+      "bytes": 278364,
+      "sha256": "ad73cacb1697ad12fe268297bfb25b4e59f94688ef0bac7ccb1acdc3a419229a"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2024/cofidis/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7726,
+      "sha256": "5a3b57c4fa7664f8352c4c142468d035d1e7690b3c9842fd12736a97a4e1e647"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2024/decathlon-ag2r-la-mondiale/assignments.csv",
+      "profile": "archives",
+      "bytes": 210357,
+      "sha256": "a80fd02b81c35bd7a57bf2214dd42a0ae01f68f4fc362a86b81616029e49dfa1"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2024/decathlon-ag2r-la-mondiale/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 8272,
+      "sha256": "ee4ead82e7571b2771083675e4cd793d92440e273c40d4e7043eb6755212baef"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2024/ef-education-easypost/assignments.csv",
+      "profile": "archives",
+      "bytes": 183995,
+      "sha256": "a756d5cb7841327d08d29d9d17fcd46b1b1bf746aeb601c3273375a55592a622"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2024/ef-education-easypost/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 8438,
+      "sha256": "7ae3bcd4008b0a2acd73ee236dedb6abba5bc47f27cf39de3c78a05454c6b012"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2024/groupama-fdj/assignments.csv",
+      "profile": "archives",
+      "bytes": 194113,
+      "sha256": "25cd175e5b8b314deb5b4e13c573586cf06103fddab8400e0ce25f2606e69292"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2024/groupama-fdj/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 6732,
+      "sha256": "bff7eaeff8a7e8964b771cb404a053e0134bc03d73e52949cdd539b799f878a9"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2024/ineos-grenadiers/assignments.csv",
+      "profile": "archives",
+      "bytes": 128607,
+      "sha256": "71bbcfd226491a512b9bf3edc827aed668fc24e2054f50471bccdec74fa865d4"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2024/ineos-grenadiers/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7466,
+      "sha256": "4b22255bd85381e709219c3e44852b3b4a15455fe582b025c2834b9f9c823eeb"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2024/intermarche-wanty/assignments.csv",
+      "profile": "archives",
+      "bytes": 244896,
+      "sha256": "2716f90207b3328823a7cadecd44cfc31777de4bc58ee70357bcae01b1874609"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2024/intermarche-wanty/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7653,
+      "sha256": "c421ebbc2538626276f627d9aa2f1197998760b84e3bb19a44405e433d24e066"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2024/lidl-trek/assignments.csv",
+      "profile": "archives",
+      "bytes": 160902,
+      "sha256": "b8db6cca7a7e4cebe200f9b63a761af4c6627dc83e2105e58d9b796cdc9305ea"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2024/lidl-trek/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7218,
+      "sha256": "60021393747c84158e794c46b779c5a0e75574c2afa53be6f6eaeb0fe184ae75"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2024/movistar-team/assignments.csv",
+      "profile": "archives",
+      "bytes": 193074,
+      "sha256": "498e208f88c6dda2e0aa3f43a7cb3bf602c7d313d87831d693f604ee0750368d"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2024/movistar-team/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7434,
+      "sha256": "096fab7b0213d88b59d77e5d81a50a1ab278d326936acc95e32d924a5a9c833f"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2024/soudal-quick-step/assignments.csv",
+      "profile": "archives",
+      "bytes": 175067,
+      "sha256": "7cfefcf2b3c06c70eea43c0107b16f4db6de119d2d5452b7fd2ba2e4a78b0922"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2024/soudal-quick-step/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7145,
+      "sha256": "3330bc725c19b90a9480a6f84d4b2af17d46ee49b9d1c87e9340c70aab8d0c2c"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2024/team-dsm-firmenich-postnl/assignments.csv",
+      "profile": "archives",
+      "bytes": 209168,
+      "sha256": "ffb652bb05a9c42c26bda0ebf21009b78649426acda35d6f29e46b3c26564683"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2024/team-dsm-firmenich-postnl/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7815,
+      "sha256": "fb7a55a3fb9b0a7b27b45bee11da0497a32d9605f1c3459c0d74aa725bfc9f7a"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2024/team-jayco-alula/assignments.csv",
+      "profile": "archives",
+      "bytes": 205051,
+      "sha256": "fecbe948c6418427c4ccee8347ecd692e640301babb2167a080020b847b15026"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2024/team-jayco-alula/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 8102,
+      "sha256": "c089a9eec24bcd54751b956e47dcdaf524b4c5544bb2366b2b0fc2bcdea1922e"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2024/team-visma-lease-a-bike/assignments.csv",
+      "profile": "archives",
+      "bytes": 145735,
+      "sha256": "6741898b1b8a83fa233bdccdcdda03af8ea75eecce9302b32739926c632a5c18"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2024/team-visma-lease-a-bike/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7424,
+      "sha256": "3eaac9df2d5b7bce44f2d23eeaf45c1869e36d9e6742b56f44c11ff47ebb09dc"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2024/uae-team-emirates/assignments.csv",
+      "profile": "archives",
+      "bytes": 232277,
+      "sha256": "b8c5abbf4ecb42e9802ec553176cf3512257ce456d43f2b19077ad2865a5178e"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2024/uae-team-emirates/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7782,
+      "sha256": "0b1ca8c1a874fe048365f382b38f071e41e7e3e3e4cdc107619b62aa4211b192"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2025/alpecin-deceuninck/assignments.csv",
+      "profile": "archives",
+      "bytes": 198706,
+      "sha256": "d19c880c37fde578230783812ed69975cac4f1449881b6adc9868f81b9f4cd69"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2025/alpecin-deceuninck/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7710,
+      "sha256": "75b41cc9c4801a669e57ce0441a2c6d08107e09a187eb71cd2d77c3156b07430"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2025/arkea-b-b-hotels/assignments.csv",
+      "profile": "archives",
+      "bytes": 230972,
+      "sha256": "e55d581d132f76d85db8a17c5377eae3de883ddd224053b34f4e3e085eee9d50"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2025/arkea-b-b-hotels/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7104,
+      "sha256": "f8b6a125c8573fe155fdc3967c17cc736617dabfffb32156d208c9c027a78462"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2025/bahrain-victorious/assignments.csv",
+      "profile": "archives",
+      "bytes": 179956,
+      "sha256": "9cc9e89478ad6dfbd9291cbd5423b31491b775fe83fdb1203e7244cc6c4899e4"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2025/bahrain-victorious/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7729,
+      "sha256": "cd1e054d211ea1c7c9703ccdac2b7e782801a8ca327c31f32955a858dcaa1546"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2025/cofidis/assignments.csv",
+      "profile": "archives",
+      "bytes": 285139,
+      "sha256": "c8db690d8e3c26cdabd544bec9db1f63652553e5a1e5db55e5b8b749c607f3c0"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2025/cofidis/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7667,
+      "sha256": "c016e2c1c6abd0fa5340f4280941207fe271ea930fa5664c122cf10503129eda"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2025/decathlon-ag2r-la-mondiale/assignments.csv",
+      "profile": "archives",
+      "bytes": 192917,
+      "sha256": "c935f5da6f95118a799dd54300b6880ef90d54d8aaf3168a54107e9484eb6107"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2025/decathlon-ag2r-la-mondiale/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 8262,
+      "sha256": "1d70a981bf016d05a6b688407db8af44752d0d542c6a1ec3fa6fafff7ed9500f"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2025/ef-education-easypost/assignments.csv",
+      "profile": "archives",
+      "bytes": 194582,
+      "sha256": "e8082b0491af050fc9e189fd341eef9ff977f1f054559af6ad6df8411d30784a"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2025/ef-education-easypost/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7940,
+      "sha256": "e3c82e770f1be3df502268b1c7475d885c1a050f378aea0d4a83497ce7906c53"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2025/groupama-fdj/assignments.csv",
+      "profile": "archives",
+      "bytes": 203265,
+      "sha256": "22ffc3a6a1c2c8332dc655e447baa4ad72ee6bfbf9b1d09a10657b4fde68e970"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2025/groupama-fdj/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7192,
+      "sha256": "7ccc19dde95ef414170057c8b5ebc2a64e3e71c007b91dc5e123892628f1f5d9"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2025/ineos-grenadiers/assignments.csv",
+      "profile": "archives",
+      "bytes": 147813,
+      "sha256": "0383bd26dba219b6a62a15aba831208c440c6d298712fb3137df47e98ec172d8"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2025/ineos-grenadiers/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7378,
+      "sha256": "e47e19e4725b038b26e41941f8810dc2991b42c0679c1b65ac3f0fa23f20456f"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2025/intermarche-wanty/assignments.csv",
+      "profile": "archives",
+      "bytes": 242667,
+      "sha256": "e65c741e35f4bdc3e6fefe514d491eeb32594235539f826f3defb73caa6fd0a3"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2025/intermarche-wanty/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7111,
+      "sha256": "a260b0630186acc179300d44a0aabe55f8baa01b52b88308fdc107fb206ea160"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2025/lidl-trek/assignments.csv",
+      "profile": "archives",
+      "bytes": 174937,
+      "sha256": "46f3d639ab5e35b9882f379e909102066353b21e212fb93ffb086cedd28de27c"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2025/lidl-trek/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7260,
+      "sha256": "3beb38c3e8da7ab729387e43ae7c0f0a7e6c743287da980c3a31706bf8c44b1f"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2025/movistar-team/assignments.csv",
+      "profile": "archives",
+      "bytes": 213648,
+      "sha256": "c19eb816535c4a7895f643cedd3aa501fcea6620f074e27fae41b61a995a5361"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2025/movistar-team/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7503,
+      "sha256": "56c1d1a9f4874a0235f6783b8eed81a3d19dc73124ac9b314ad9d38c2d7e48cc"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2025/red-bull-bora-hansgrohe/assignments.csv",
+      "profile": "archives",
+      "bytes": 182259,
+      "sha256": "2928531ae5aed979c346953a3db8e5e90add1f1db13e7ef1743921def67e7a4f"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2025/red-bull-bora-hansgrohe/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7782,
+      "sha256": "b853246a50cf4b50d88c124b65e554dfab2c1d0f65d00f85d26d609315a6b764"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2025/soudal-quick-step/assignments.csv",
+      "profile": "archives",
+      "bytes": 191179,
+      "sha256": "8185ebae214f8b2c34293b1a78522270d4907d484874681ca9abfe5e05c71d00"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2025/soudal-quick-step/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7688,
+      "sha256": "b6b627857663d006460e4df2e5e3900530663fce238cbd7d87bda3a0d4dc9c27"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2025/team-jayco-alula/assignments.csv",
+      "profile": "archives",
+      "bytes": 198182,
+      "sha256": "0312a8492f187efdc0e13856dbb03f041e0b7941e317e9b6749966c45efe1456"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2025/team-jayco-alula/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7607,
+      "sha256": "755168f6c626b44a270baeddb382d1db4304109c96d4ec4f4fb75abbfccd6137"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2025/team-picnic-postnl/assignments.csv",
+      "profile": "archives",
+      "bytes": 196589,
+      "sha256": "f0f04448ad35cbe717f2739ee465fe66c961033edb2775bec850ea0d2a0616ac"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2025/team-picnic-postnl/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7663,
+      "sha256": "213636b7dcb2db33f88433cfbeec36ae2df90ae8f7ff2cc1f0144ae8e0c28e0b"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2025/team-visma-lease-a-bike/assignments.csv",
+      "profile": "archives",
+      "bytes": 166488,
+      "sha256": "afef54d56a8745766459badf1218ddaf0a4478b508889994f1d1f0ac0fe94cba"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2025/team-visma-lease-a-bike/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7840,
+      "sha256": "3796c81becf9f4f664138cd590b29ed0c35b229b2fdcfc4e84742dabae79c7c7"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2025/uae-team-emirates-xrg/assignments.csv",
+      "profile": "archives",
+      "bytes": 225856,
+      "sha256": "a281701a31a77237f71fd092665a9ad1c78372bea776a11a5bff5b813447b175"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2025/uae-team-emirates-xrg/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7802,
+      "sha256": "d68c5f0af1dc7906b8f3d335e93a4979ef791f4c0f29101d1e1b2a755e90263d"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2025/xds-astana-team/assignments.csv",
+      "profile": "archives",
+      "bytes": 261172,
+      "sha256": "2d672ffb183827dfc67052568c6729b177cb56bd43c3ed83b83712c0e9556757"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/regressor/regressor/2025/xds-astana-team/rider_totals.csv",
+      "profile": "archives",
+      "bytes": 7590,
+      "sha256": "40a207544d9aae38b7e360154dcc01313914b2178cdf0fb543425d4e6df041af"
+    },
+    {
+      "path": "outputs/hybrid_evaluation/2026-09-14_16-45-11_478985/team_summary.csv",
+      "profile": "archives",
+      "bytes": 39177,
+      "sha256": "338364f3d72ca5b06b0c56d649e1a671434fe6c4be985efa1592a84afc49af3c"
+    },
+    {
+      "path": "outputs/rostering_evaluation/2026-09-10_15-08-16_163989/metadata.json",
+      "profile": "archives",
+      "bytes": 18748,
+      "sha256": "d94aeb680a7ab2fae03ca39c108f2c646872a88d8620d7cd08932eb8540ccb25"
+    },
+    {
+      "path": "outputs/rostering_evaluation/2026-09-10_15-08-16_163989/per_race_results.csv",
+      "profile": "archives",
+      "bytes": 21003297,
+      "sha256": "65ad549df572e52a404ba9776518e469de5be077c8b334ba9f0a0df8cf1aaac1"
+    },
+    {
+      "path": "outputs/rostering_evaluation/2026-09-10_15-08-16_163989/team_summary.csv",
+      "profile": "archives",
+      "bytes": 153738,
+      "sha256": "780f04000a8480edb5f6519f31ed66fdfa3459298264238dea296391f8b3a6a4"
+    },
+    {
+      "path": "outputs/rostering_evaluation/2026-09-11_09-19-56_537799/metadata.json",
+      "profile": "archives",
+      "bytes": 36826,
+      "sha256": "13cb6757f2e7a938aff0f92f6fa6789dd9eac224d7def0fab70a68ed03cdc5df"
+    },
+    {
+      "path": "outputs/rostering_evaluation/2026-09-11_09-19-56_537799/models/2024/gc.json",
+      "profile": "archives",
+      "bytes": 4308440,
+      "sha256": "6d5a49049dff76a5ab10b6491f611e16802dbd67f8900ae264a1b7434992a393"
+    },
+    {
+      "path": "outputs/rostering_evaluation/2026-09-11_09-19-56_537799/models/2024/gc_reg.json",
+      "profile": "archives",
+      "bytes": 3489125,
+      "sha256": "a260caf2f98b754dccbccf505c3d8650df7e96b7c2407879da881fcee4803fd1"
+    },
+    {
+      "path": "outputs/rostering_evaluation/2026-09-11_09-19-56_537799/models/2024/stage.json",
+      "profile": "archives",
+      "bytes": 2185139,
+      "sha256": "ada60a65fe29a9467265490380682da071b20ace238ecf7a847b38cd9fd50f54"
+    },
+    {
+      "path": "outputs/rostering_evaluation/2026-09-11_09-19-56_537799/models/2024/stage_reg.json",
+      "profile": "archives",
+      "bytes": 3239791,
+      "sha256": "6ebf72e02fcf99a902a5e0e460733ffcd7a2f3a31cf61b04ba55236b96b0d930"
+    },
+    {
+      "path": "outputs/rostering_evaluation/2026-09-11_09-19-56_537799/models/2025/gc.json",
+      "profile": "archives",
+      "bytes": 4296809,
+      "sha256": "28ca494a2c35ea14972c24182cf53861675e56a61298659d65738ef0ab2af130"
+    },
+    {
+      "path": "outputs/rostering_evaluation/2026-09-11_09-19-56_537799/models/2025/gc_reg.json",
+      "profile": "archives",
+      "bytes": 3493662,
+      "sha256": "2d71b677fc38283c60908074affd4f362418e746c2561a95454b7b78e973a965"
+    },
+    {
+      "path": "outputs/rostering_evaluation/2026-09-11_09-19-56_537799/models/2025/stage.json",
+      "profile": "archives",
+      "bytes": 2236957,
+      "sha256": "4dcd8b0eea41b24bc0e4780012de201bef99fc4ddc3b55d3b93a69eeb0b31e72"
+    },
+    {
+      "path": "outputs/rostering_evaluation/2026-09-11_09-19-56_537799/models/2025/stage_reg.json",
+      "profile": "archives",
+      "bytes": 3361703,
+      "sha256": "0a480d62d85844ef363bc3c9c96e0892c2075f5e2c089b8bf3f56d36cec845a3"
+    },
+    {
+      "path": "outputs/rostering_evaluation/2026-09-11_09-19-56_537799/per_race_results.csv",
+      "profile": "archives",
+      "bytes": 22114070,
+      "sha256": "42e73259837c168c9e29b0ee156066e82d46f585e6801658e124be6f4361c7fc"
+    },
+    {
+      "path": "outputs/rostering_evaluation/2026-09-11_09-19-56_537799/team_summary.csv",
+      "profile": "archives",
+      "bytes": 198763,
+      "sha256": "46acd29242d296d2d7046a8039347536822215a7238ae49f439c398f3bf66213"
+    },
+    {
+      "path": "outputs/rostering_evaluation/2026-09-11_10-20-59_072753/metadata.json",
+      "profile": "archives",
+      "bytes": 37340,
+      "sha256": "b9d8dca1778b46afa921a8999b638733b12a26af1a15d9b9ebf7d13af2987fea"
+    },
+    {
+      "path": "outputs/rostering_evaluation/2026-09-11_10-20-59_072753/models/2024/gc.json",
+      "profile": "archives",
+      "bytes": 4308440,
+      "sha256": "6d5a49049dff76a5ab10b6491f611e16802dbd67f8900ae264a1b7434992a393"
+    },
+    {
+      "path": "outputs/rostering_evaluation/2026-09-11_10-20-59_072753/models/2024/gc_reg.json",
+      "profile": "archives",
+      "bytes": 3489125,
+      "sha256": "a260caf2f98b754dccbccf505c3d8650df7e96b7c2407879da881fcee4803fd1"
+    },
+    {
+      "path": "outputs/rostering_evaluation/2026-09-11_10-20-59_072753/models/2024/stage.json",
+      "profile": "archives",
+      "bytes": 2185139,
+      "sha256": "ada60a65fe29a9467265490380682da071b20ace238ecf7a847b38cd9fd50f54"
+    },
+    {
+      "path": "outputs/rostering_evaluation/2026-09-11_10-20-59_072753/models/2024/stage_reg.json",
+      "profile": "archives",
+      "bytes": 3239791,
+      "sha256": "6ebf72e02fcf99a902a5e0e460733ffcd7a2f3a31cf61b04ba55236b96b0d930"
+    },
+    {
+      "path": "outputs/rostering_evaluation/2026-09-11_10-20-59_072753/models/2025/gc.json",
+      "profile": "archives",
+      "bytes": 4296809,
+      "sha256": "28ca494a2c35ea14972c24182cf53861675e56a61298659d65738ef0ab2af130"
+    },
+    {
+      "path": "outputs/rostering_evaluation/2026-09-11_10-20-59_072753/models/2025/gc_reg.json",
+      "profile": "archives",
+      "bytes": 3493662,
+      "sha256": "2d71b677fc38283c60908074affd4f362418e746c2561a95454b7b78e973a965"
+    },
+    {
+      "path": "outputs/rostering_evaluation/2026-09-11_10-20-59_072753/models/2025/stage.json",
+      "profile": "archives",
+      "bytes": 2236957,
+      "sha256": "4dcd8b0eea41b24bc0e4780012de201bef99fc4ddc3b55d3b93a69eeb0b31e72"
+    },
+    {
+      "path": "outputs/rostering_evaluation/2026-09-11_10-20-59_072753/models/2025/stage_reg.json",
+      "profile": "archives",
+      "bytes": 3361703,
+      "sha256": "0a480d62d85844ef363bc3c9c96e0892c2075f5e2c089b8bf3f56d36cec845a3"
+    },
+    {
+      "path": "outputs/rostering_evaluation/2026-09-11_10-20-59_072753/per_race_results.csv",
+      "profile": "archives",
+      "bytes": 22361907,
+      "sha256": "86a21ae72de79f18d0f6554a4e9d9806065823ce250ec15809f18b53381920f5"
+    },
+    {
+      "path": "outputs/rostering_evaluation/2026-09-11_10-20-59_072753/team_summary.csv",
+      "profile": "archives",
+      "bytes": 200411,
+      "sha256": "9e301f2d27418160f7c4382ee6587af70cf5759680a9d4af06fe1f300dbeb108"
+    },
+    {
+      "path": "outputs/tuning/gc/2026-09-10_08-06-42/metadata.json",
+      "profile": "inputs",
+      "bytes": 5155,
+      "sha256": "17caff625f2a70356a7cf6038ddd87431074c73fd6600eaf7673ede13f166c88"
+    },
+    {
+      "path": "outputs/tuning/gc/2026-09-10_08-06-42/results.csv",
+      "profile": "inputs",
+      "bytes": 55956,
+      "sha256": "ee3e920a3dc7ec9d9ebe2c2b320fced846d249b9940a2dd91b7bb50e8adcad02"
+    },
+    {
+      "path": "outputs/tuning/gc_reg/2026-09-11_16-39-00/metadata.json",
+      "profile": "inputs",
+      "bytes": 6016,
+      "sha256": "18edca0075ceec45cf0cd549d3130cee3536a00c8001e1380ee346612d9c646a"
+    },
+    {
+      "path": "outputs/tuning/gc_reg/2026-09-11_16-39-00/results.csv",
+      "profile": "inputs",
+      "bytes": 8801,
+      "sha256": "463b1010e012de68552b9c10c8c48231673ce8f2c9e304fc2ab02875de9cec9b"
+    },
+    {
+      "path": "outputs/tuning/stage/2026-09-09_21-56-39/metadata.json",
+      "profile": "inputs",
+      "bytes": 6655,
+      "sha256": "b6181ec6e5f7f1d6820d35bc730970cad69444c9457bdbed7e779b72eff4663e"
+    },
+    {
+      "path": "outputs/tuning/stage/2026-09-09_21-56-39/results.csv",
+      "profile": "inputs",
+      "bytes": 56260,
+      "sha256": "7d93c2243e1048d55011479ae96d5dbb1da33be7e045187d48f89b3c969e59a2"
+    },
+    {
+      "path": "outputs/tuning/stage_reg/2026-09-10_10-14-40/metadata.json",
+      "profile": "inputs",
+      "bytes": 7559,
+      "sha256": "3e09528184a604fd48ab915cd284eba0acbf9e272012d8e4a0892fcaca839dc5"
+    },
+    {
+      "path": "outputs/tuning/stage_reg/2026-09-10_10-14-40/results.csv",
+      "profile": "inputs",
+      "bytes": 8833,
+      "sha256": "99aaf82a092857b144ce6bce57809c7776d42f25626bcd73eebb998c216d8bb0"
+    }
+  ]
+}

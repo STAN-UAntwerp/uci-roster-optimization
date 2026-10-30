@@ -1,0 +1,71 @@
+{
+  "team": "team/alpecin-deceuninck-2024",
+  "jobs": [
+    "race/tour-down-under/2024",
+    "race/gp-d-ouverture/2024"
+  ],
+  "families": {
+    "ranker": {
+      "solver": {
+        "n_variables": 121,
+        "n_constraints": 333,
+        "solve_time_s": 0.006999969482421875,
+        "mip_gap": null,
+        "status": 2,
+        "solution_count": 2,
+        "is_optimal": true,
+        "requested_mip_gap": 0.001,
+        "undated_injury_records": 0
+      },
+      "scores": {
+        "eval_ranker_total_original_pts": 26.0,
+        "eval_ranker_total_original_selected_field_pts": 32.0,
+        "eval_ranker_total_optimized_pts": 998.0,
+        "eval_ranker_total_optimized_selected_field_pts": 998.0,
+        "eval_ranker_improvement_pts": 972.0,
+        "eval_ranker_improvement_pts_pct": 3738.4615384615386,
+        "eval_ranker_improvement_selected_field_pts": 966.0,
+        "eval_ranker_improvement_selected_field_pts_pct": 3018.75,
+        "eval_regressor_total_original_pts": 55.0,
+        "eval_regressor_total_original_selected_field_pts": 88.0,
+        "eval_regressor_total_optimized_pts": 1080.0,
+        "eval_regressor_total_optimized_selected_field_pts": 1094.0,
+        "eval_regressor_improvement_pts": 1025.0,
+        "eval_regressor_improvement_pts_pct": 1863.6363636363637,
+        "eval_regressor_improvement_selected_field_pts": 1006.0,
+        "eval_regressor_improvement_selected_field_pts_pct": 1143.1818181818182
+      }
+    },
+    "regressor": {
+      "solver": {
+        "n_variables": 121,
+        "n_constraints": 333,
+        "solve_time_s": 0.0,
+        "mip_gap": null,
+        "status": 2,
+        "solution_count": 3,
+        "is_optimal": true,
+        "requested_mip_gap": 0.001,
+        "undated_injury_records": 0
+      },
+      "scores": {
+        "eval_ranker_total_original_pts": 26.0,
+        "eval_ranker_total_original_selected_field_pts": 32.0,
+        "eval_ranker_total_optimized_pts": 968.0,
+        "eval_ranker_total_optimized_selected_field_pts": 973.0,
+        "eval_ranker_improvement_pts": 942.0,
+        "eval_ranker_improvement_pts_pct": 3623.076923076923,
+        "eval_ranker_improvement_selected_field_pts": 941.0,
+        "eval_ranker_improvement_selected_field_pts_pct": 2940.625,
+        "eval_regressor_total_original_pts": 55.0,
+        "eval_regressor_total_original_selected_field_pts": 88.0,
+        "eval_regressor_total_optimized_pts": 1123.0,
+        "eval_regressor_total_optimized_selected_field_pts": 1125.0,
+        "eval_regressor_improvement_pts": 1068.0,
+        "eval_regressor_improvement_pts_pct": 1941.8181818181818,
+        "eval_regressor_improvement_selected_field_pts": 1037.0,
+        "eval_regressor_improvement_selected_field_pts_pct": 1178.409090909091
+      }
+    }
+  }
+}

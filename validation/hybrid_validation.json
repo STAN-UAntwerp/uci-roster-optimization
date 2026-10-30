@@ -1,0 +1,12 @@
+{
+  "rows": 288,
+  "columns": [
+    "hybrid_points",
+    "actual_points",
+    "predicted_not_raced_points",
+    "predicted_only_points",
+    "hybrid_improvement_pct"
+  ],
+  "matched": true,
+  "source": "paper_code\\outputs\\reproduced_hybrid\\2026-09-15_11-23-02_866679\\team_summary.csv"
+}

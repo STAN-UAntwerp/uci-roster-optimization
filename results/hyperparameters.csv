@@ -1,0 +1,5 @@
+Model,objective,ndcg_exp_gain,n_estimators,random_state,lambdarank_pair_method,max_depth,reg_alpha,reg_lambda,eta,lambdarank_num_pair_per_sample,validation_ndcg_at_20
+STAGE,rank:ndcg,False,565,23,topk,5,0.1,0.1,0.05,50.0,0.5023277285988503
+GC,rank:ndcg,False,517,23,mean,8,0.1,1.0,0.05,5.0,0.5938623676682646
+STAGE_REG,reg:squarederror,,175,23,,8,0.1,1.0,0.05,,0.45998453185787747
+GC_REG,reg:squarederror,,209,23,,8,1.0,1.0,0.05,,0.5936500560560021

@@ -1,0 +1,53 @@
+STAGE:
+  objective: "rank:ndcg"
+  ndcg_exp_gain: False
+  n_estimators: 10000
+  early_stopping_rounds: 100
+  lambdarank_pair_method: ["mean", "topk"]
+  lambdarank_num_pair_per_sample: 
+    mean: [1, 5, 10]
+    topk: [12, 20, 50]
+  max_depth: [3, 5, 8]
+  reg_alpha: [0.1, 1.0]
+  reg_lambda: [0.1, 1.0]
+  eta: [0.01, 0.05, 0.1, 0.3]
+  random_state: 23
+
+STAGE_REG:
+  objective: "reg:squarederror"
+  n_estimators: 10000
+  early_stopping_rounds: 100
+  max_depth: [3, 5, 8]
+  reg_alpha: [0.1, 1.0]
+  reg_lambda: [0.1, 1.0]
+  eta: [0.01, 0.05, 0.1, 0.3]
+  random_state: 23
+
+GC:
+  objective: "rank:ndcg"
+  ndcg_exp_gain: False
+  n_estimators: 10000
+  early_stopping_rounds: 100
+  lambdarank_pair_method: ["mean", "topk"]
+  lambdarank_num_pair_per_sample: 
+    mean: [1, 5, 10]
+    topk: [12, 20, 50]
+  max_depth: [3, 5, 8]
+  reg_alpha: [0.1, 1.0]
+  reg_lambda: [0.1, 1.0]
+  eta: [0.01, 0.05, 0.1, 0.3]
+  random_state: 23
+
+GC_REG:
+  objective: "reg:squarederror"
+  n_estimators: 10000
+  early_stopping_rounds: 100
+  max_depth: [3, 5, 8]
+  reg_alpha: [0.1, 1.0]
+  reg_lambda: [0.1, 1.0]
+  eta: [0.01, 0.05, 0.1, 0.3]
+  random_state: 23
+
+DATES:
+  test_dates: [["2023-01-01", "2023-06-30"], ["2023-07-01", "2023-12-31"]]
+  train_dates: [["2019-01-01", "2022-12-31"], ["2019-01-01", "2023-05-31"]]

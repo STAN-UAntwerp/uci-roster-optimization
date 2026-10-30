@@ -1,0 +1,19 @@
+License scope and data provenance
+
+The MIT License applies to original code and associated documentation.
+Third-party software retains its own license. In particular, using Gurobi
+requires an appropriate license from its provider.
+
+The repository includes aggregate research results, not a license to the
+underlying source databases. No third-party data rights are granted by LICENSE.
+Source-level records, injury intervals, prepared features, fitted models and
+detailed evaluation archives are not distributed with the code release.
+
+Research sources:
+- ProCyclingStats: https://www.procyclingstats.com/
+- La Flamme Rouge: https://www.la-flamme-rouge.eu/
+- OpenStreetMap contributors: https://www.openstreetmap.org/copyright
+  OpenStreetMap data are available under the Open Database License (ODbL).
+  OSM-derived inputs are not included in this release.
+
+Attribution is not a statement of redistribution permission or endorsement.

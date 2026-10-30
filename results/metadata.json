@@ -1,0 +1,50 @@
+{
+  "status": "complete",
+  "sources": {
+    "ranker": "outputs/rostering_evaluation/2026-09-11_10-20-59_072753",
+    "regressor": "outputs/rostering_evaluation/2026-09-11_09-19-56_537799"
+  },
+  "scoring": "Frozen selected-field predictions for nonparticipants; recorded stage/GC totals for participants under the complete-results assumption; wholly cancelled races score zero.",
+  "aggregation": "Choose top N by each roster's hybrid season total, then sum both components over the same riders. Pure prediction comparison chooses its own top N.",
+  "interpretation": "Retrospective hybrid sensitivity check; not realized counterfactual outcomes. Mixing recorded awards and predicted ranks need not conserve race points.",
+  "all_scenarios": false,
+  "source_code_sha256": {
+    "actual_results.py": "e85a93a1773f28567ab5320f2dd45660f1ffa56b218f1b8530b074b8a88c122e",
+    "hybrid_evaluation.py": "7b4d4fafd9d3a6afa823830c805e054fee7c0eaec98f1d97f55caa82be1dad26"
+  },
+  "source_summary_sha256": {
+    "ranker": "9e301f2d27418160f7c4382ee6587af70cf5759680a9d4af06fe1f300dbeb108",
+    "regressor": "46acd29242d296d2d7046a8039347536822215a7238ae49f439c398f3bf66213"
+  },
+  "model_sha256": {
+    "ranker/2024": {
+      "STAGE": "ada60a65fe29a9467265490380682da071b20ace238ecf7a847b38cd9fd50f54",
+      "GC": "6d5a49049dff76a5ab10b6491f611e16802dbd67f8900ae264a1b7434992a393",
+      "STAGE_REG": "6ebf72e02fcf99a902a5e0e460733ffcd7a2f3a31cf61b04ba55236b96b0d930",
+      "GC_REG": "a260caf2f98b754dccbccf505c3d8650df7e96b7c2407879da881fcee4803fd1"
+    },
+    "ranker/2025": {
+      "STAGE": "4dcd8b0eea41b24bc0e4780012de201bef99fc4ddc3b55d3b93a69eeb0b31e72",
+      "GC": "28ca494a2c35ea14972c24182cf53861675e56a61298659d65738ef0ab2af130",
+      "STAGE_REG": "0a480d62d85844ef363bc3c9c96e0892c2075f5e2c089b8bf3f56d36cec845a3",
+      "GC_REG": "2d71b677fc38283c60908074affd4f362418e746c2561a95454b7b78e973a965"
+    },
+    "regressor/2024": {
+      "STAGE": "ada60a65fe29a9467265490380682da071b20ace238ecf7a847b38cd9fd50f54",
+      "GC": "6d5a49049dff76a5ab10b6491f611e16802dbd67f8900ae264a1b7434992a393",
+      "STAGE_REG": "6ebf72e02fcf99a902a5e0e460733ffcd7a2f3a31cf61b04ba55236b96b0d930",
+      "GC_REG": "a260caf2f98b754dccbccf505c3d8650df7e96b7c2407879da881fcee4803fd1"
+    },
+    "regressor/2025": {
+      "STAGE": "4dcd8b0eea41b24bc0e4780012de201bef99fc4ddc3b55d3b93a69eeb0b31e72",
+      "GC": "28ca494a2c35ea14972c24182cf53861675e56a61298659d65738ef0ab2af130",
+      "STAGE_REG": "0a480d62d85844ef363bc3c9c96e0892c2075f5e2c089b8bf3f56d36cec845a3",
+      "GC_REG": "2d71b677fc38283c60908074affd4f362418e746c2561a95454b7b78e973a965"
+    }
+  },
+  "n_summary_rows": 288,
+  "refreshed_from": "outputs/hybrid_evaluation/2026-09-14_16-22-20_876322",
+  "completeness_assumption": "Author confirms result sets complete. Missing scheduled events are cancelled; missing rider results earn zero. Existing predictions and rosters remain frozen.",
+  "original_baseline": "Actual awards only; DNS contributes zero. Select the top N by actual season totals.",
+  "path_convention": "Source paths are relative to the original research workspace; referenced archives are not distributed."
+}

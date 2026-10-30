@@ -1,0 +1,17 @@
+# Pinned to the ranking runs used by models/model_evaluation.ipynb.
+tuning_runs:
+  STAGE: outputs/tuning/stage/2026-09-09_21-56-39
+  GC: outputs/tuning/gc/2026-09-10_08-06-42
+  STAGE_REG: outputs/tuning/stage_reg/2026-09-10_10-14-40
+  GC_REG: outputs/tuning/gc_reg/2026-09-11_16-39-00
+reward_model: ranker
+evaluation_model: same  # same, ranker, regressor, or both
+years: [2024, 2025]
+train_years: 5
+max_race_days: [65, 70, 75, 80, 85, 90]
+include_actual_race_days: true
+injury_modes: [false, true]
+top_n: 20
+mip_gap: 0.001
+time_limit: null
+output_root: outputs/rostering_evaluation

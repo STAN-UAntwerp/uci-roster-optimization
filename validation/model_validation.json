@@ -1,0 +1,11 @@
+{
+  "models_refitted": 8,
+  "years": [
+    2024,
+    2025
+  ],
+  "metric_rows": 288,
+  "maximum_absolute_difference": 0.0,
+  "reference_archive": "outputs\\evaluation\\2026-09-10_10-39-20_065552",
+  "reproduced_archive": "paper_code\\outputs\\reproduced_models\\2026-09-15_10-44-13_626380"
+}
